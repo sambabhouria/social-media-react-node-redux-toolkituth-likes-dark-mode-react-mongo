@@ -1,12 +1,12 @@
-import {CssBaseline, ThemeProvider} from "@mui/material";
-import {createTheme} from "@mui/material/styles";
-import {useMemo} from "react";
-import {useSelector} from "react-redux";
-import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
-import HomePage from "scenes/homePage";
-import LoginPage from "scenes/loginPage";
-import ProfilePage from "scenes/profilePage";
-import {themeSettings} from "./theme";
+import { CssBaseline, ThemeProvider } from "@mui/material";
+import { createTheme } from "@mui/material/styles";
+import { useMemo } from "react";
+import { useSelector } from "react-redux";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import HomePage from "./screens/homePage";
+import LoginPage from "./screens/loginPage";
+import ProfilePage from "./screens/profilePage";
+import { themeSettings } from "./theme";
 
 function App() {
   const mode = useSelector((state) => state.mode);

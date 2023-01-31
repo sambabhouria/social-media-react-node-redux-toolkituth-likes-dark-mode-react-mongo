@@ -7,14 +7,14 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
-import FlexBetween from "components/FlexBetween";
 import { Formik } from "formik";
 import { useState } from "react";
 import Dropzone from "react-dropzone";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { setLogin } from "state";
 import * as yup from "yup";
+import FlexBetween from "../../components/FlexBetween";
+import { setLogin } from "../../state";
 
 const registerSchema = yup.object().shape({
   firstName: yup.string().required("required"),

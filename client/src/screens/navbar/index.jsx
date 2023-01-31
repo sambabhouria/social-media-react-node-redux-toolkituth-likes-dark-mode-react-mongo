@@ -19,11 +19,11 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
-import FlexBetween from "components/FlexBetween";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { setLogout, setMode } from "state";
+import FlexBetween from "../../components/FlexBetween";
+import { setLogout, setMode } from "../../state";
 
 const Navbar = () => {
   const [isMobileMenuToggled, setIsMobileMenuToggled] = useState(false);
