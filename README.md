@@ -2,7 +2,7 @@
 
 Complete React Mongo Express React Node Full Stack Social Media App
 
-#  Topics
+# Topics
 
     1. Build a Fullstack MERN React Responsive Social Media Application from Scratch
     2. Backend Installation of Node, Visual Studio Code, and Backend Packages
@@ -15,17 +15,17 @@ Complete React Mongo Express React Node Full Stack Social Media App
     9. React Redux File Folder Architecture and React Router
     10. Redux and Toolkit Installation and Setup
     11. Color, Theme, Dark Mode, and Styling Setup
-	12. Navbar
-	13. Register, Login Pages, and Form
-	14. Home Page and Widgets
-	15. Posts and Post Widge
-	15. Profile Page
-	15. Finaly full Full Stack MERN
-	
+    12. Navbar
+    13. Register, Login Pages, and Form
+    14. Home Page and Widgets
+    15. Posts and Post Widge
+    15. Profile Page
+    15. Finaly full Full Stack MERN
+
 # `screenShot`
 
-<img src="./1.png">
-<img src="./2.png"/>
-<img src="./3.png"/>
-<img src="./4.png"/>
-<img src="./5.png"/>
+<img src="./1.PNG">
+<img src="./2.PNG"/>
+<img src="./3.PNG"/>
+<img src="./4.PNG"/>
+<img src="./5.PNG"/>
